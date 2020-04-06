@@ -73,7 +73,7 @@ class SpatialPyramidPooling(Layer):
         col_length = [K.cast(num_cols, 'float32') / i for i in self.pool_list]
 
         outputs = []
-        print(outputs)
+        
         if self.dim_ordering == 'channels_last':
             for pool_num, num_pool_regions in enumerate(self.pool_list):
                 for jy in range(num_pool_regions):
