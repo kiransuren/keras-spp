@@ -1,5 +1,5 @@
 """
-The following is slghtly modified version of the SpatialPyramidPooling by yhenon
+The following is slightly modified version of the SpatialPyramidPooling by yhenon
 Author's GitHub: https://github.com/yhenon/keras-spp
 My GitHub: https://github.com/kiransuren/keras-spp
 
